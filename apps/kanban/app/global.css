@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .tp-heading-xl {
+    @apply font-jak text-2xl font-bold;
+  }
+
+  .tp-heading-l {
+    @apply font-jak text-xl font-bold;
+  }
+
+  .tp-heading-m {
+    @apply font-jak text-lg font-bold;
+  }
+
+  .tp-heading-s {
+    @apply font-jak text-sm tracking-[0.015rem] font-bold;
+  }
+
+  .tp-body-l {
+    @apply font-jak text-base leading-[1.4375rem] font-medium;
+  }
+
+  .tp-body-m {
+    @apply font-jak text-sm leading-[0.9375rem] font-bold;
+  }
+}
